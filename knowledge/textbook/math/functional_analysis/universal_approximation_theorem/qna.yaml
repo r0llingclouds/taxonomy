@@ -18,7 +18,7 @@ seed_examples:
    answer: |
      The theorem provides a theoretical foundation for using neural networks in various AI applications, ensuring that networks can model complex patterns and functions needed in tasks like speech recognition, image processing, and more.
 document:
- repo: https://github.com/r0llingclouds/universal_approximation_theorem
+ repo: https://github.com/r0llingclouds/universal_approximation_theorem.git
  commit: 37de084
  patterns:
    - universal_approximation_theorem.md
