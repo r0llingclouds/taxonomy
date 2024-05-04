@@ -1,0 +1,4 @@
+Title of work: Universal approximation theorem
+Link to work: https://en.wikipedia.org/wiki/Universal_approximation_theorem
+License of the work: CC-BY-SA-4.0
+Creator names: Wikipedia Authors

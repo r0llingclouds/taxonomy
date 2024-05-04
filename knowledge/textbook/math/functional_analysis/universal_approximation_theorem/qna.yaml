@@ -1,0 +1,24 @@
+task_description: 'Knowledge skill - Universal Approximation Theorem'
+created_by: Tirso Lopez Ausens
+domain: mathematics
+seed_examples:
+ - question: What is the Universal Approximation Theorem?
+   answer: |
+     The Universal Approximation Theorem states that a feed-forward network with a single hidden layer containing a finite number of neurons can approximate continuous functions on compact subsets of \( \mathbb{R}^n \), under mild assumptions on the activation function.
+ - question: Who contributed to the development of the Universal Approximation Theorem?
+   answer: |
+     The theorem was initially introduced by George Cybenko in 1989 for sigmoid activation functions, and was further generalized by Kurt Hornik in 1991.
+ - question: What are the key assumptions of the Universal Approximation Theorem?
+   answer: |
+     The key assumptions include the network having a single hidden layer and the activation function being non-constant, bounded, and continuous.
+ - question: How does the theorem apply to neural networks?
+   answer: |
+     The theorem underscores the capability of neural networks to approximate any smooth and well-defined function, validating the power of neural networks in learning and generalization.
+ - question: What impact does the Universal Approximation Theorem have on artificial intelligence?
+   answer: |
+     The theorem provides a theoretical foundation for using neural networks in various AI applications, ensuring that networks can model complex patterns and functions needed in tasks like speech recognition, image processing, and more.
+document:
+ repo: https://github.com/r0llingclouds/universal_approximation_theorem
+ commit: 37de084
+ patterns:
+   - universal_approximation_theorem.md
